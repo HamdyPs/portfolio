@@ -1,10 +1,6 @@
 function missingNumber(nums) {
   const n = nums.length;
 
-  if (n !== nums.length) {
-    throw new Error("n is not equal to the length of the input array");
-  }
-
   const numSet = new Set();
 
   for (const num of nums) {
